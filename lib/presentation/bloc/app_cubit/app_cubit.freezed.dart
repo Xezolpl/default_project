@@ -14,8 +14,8 @@ class _$AppStateTearOff {
   const _$AppStateTearOff();
 
 // ignore: unused_element
-  _Initial loading() {
-    return const _Initial();
+  _Loading loading() {
+    return const _Loading();
   }
 
 // ignore: unused_element
@@ -52,13 +52,13 @@ mixin _$AppState {
   });
   @optionalTypeArgs
   TResult map<TResult extends Object>({
-    @required TResult loading(_Initial value),
+    @required TResult loading(_Loading value),
     @required TResult success(_Success value),
     @required TResult error(_Error value),
   });
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object>({
-    TResult loading(_Initial value),
+    TResult loading(_Loading value),
     TResult success(_Success value),
     TResult error(_Error value),
     @required TResult orElse(),
@@ -81,24 +81,24 @@ class _$AppStateCopyWithImpl<$Res> implements $AppStateCopyWith<$Res> {
 }
 
 /// @nodoc
-abstract class _$InitialCopyWith<$Res> {
-  factory _$InitialCopyWith(_Initial value, $Res Function(_Initial) then) =
-      __$InitialCopyWithImpl<$Res>;
+abstract class _$LoadingCopyWith<$Res> {
+  factory _$LoadingCopyWith(_Loading value, $Res Function(_Loading) then) =
+      __$LoadingCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$InitialCopyWithImpl<$Res> extends _$AppStateCopyWithImpl<$Res>
-    implements _$InitialCopyWith<$Res> {
-  __$InitialCopyWithImpl(_Initial _value, $Res Function(_Initial) _then)
-      : super(_value, (v) => _then(v as _Initial));
+class __$LoadingCopyWithImpl<$Res> extends _$AppStateCopyWithImpl<$Res>
+    implements _$LoadingCopyWith<$Res> {
+  __$LoadingCopyWithImpl(_Loading _value, $Res Function(_Loading) _then)
+      : super(_value, (v) => _then(v as _Loading));
 
   @override
-  _Initial get _value => super._value as _Initial;
+  _Loading get _value => super._value as _Loading;
 }
 
 /// @nodoc
-class _$_Initial implements _Initial {
-  const _$_Initial();
+class _$_Loading implements _Loading {
+  const _$_Loading();
 
   @override
   String toString() {
@@ -107,7 +107,7 @@ class _$_Initial implements _Initial {
 
   @override
   bool operator ==(dynamic other) {
-    return identical(this, other) || (other is _Initial);
+    return identical(this, other) || (other is _Loading);
   }
 
   @override
@@ -144,7 +144,7 @@ class _$_Initial implements _Initial {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object>({
-    @required TResult loading(_Initial value),
+    @required TResult loading(_Loading value),
     @required TResult success(_Success value),
     @required TResult error(_Error value),
   }) {
@@ -157,7 +157,7 @@ class _$_Initial implements _Initial {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object>({
-    TResult loading(_Initial value),
+    TResult loading(_Loading value),
     TResult success(_Success value),
     TResult error(_Error value),
     @required TResult orElse(),
@@ -170,8 +170,8 @@ class _$_Initial implements _Initial {
   }
 }
 
-abstract class _Initial implements AppState {
-  const factory _Initial() = _$_Initial;
+abstract class _Loading implements AppState {
+  const factory _Loading() = _$_Loading;
 }
 
 /// @nodoc
@@ -238,7 +238,7 @@ class _$_Success implements _Success {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object>({
-    @required TResult loading(_Initial value),
+    @required TResult loading(_Loading value),
     @required TResult success(_Success value),
     @required TResult error(_Error value),
   }) {
@@ -251,7 +251,7 @@ class _$_Success implements _Success {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object>({
-    TResult loading(_Initial value),
+    TResult loading(_Loading value),
     TResult success(_Success value),
     TResult error(_Error value),
     @required TResult orElse(),
@@ -354,7 +354,7 @@ class _$_Error implements _Error {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object>({
-    @required TResult loading(_Initial value),
+    @required TResult loading(_Loading value),
     @required TResult success(_Success value),
     @required TResult error(_Error value),
   }) {
@@ -367,7 +367,7 @@ class _$_Error implements _Error {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object>({
-    TResult loading(_Initial value),
+    TResult loading(_Loading value),
     TResult success(_Success value),
     TResult error(_Error value),
     @required TResult orElse(),

@@ -10,7 +10,7 @@ class AppCubit extends Cubit<AppState> {
 
 @freezed
 abstract class AppState with _$AppState {
-  const factory AppState.loading() = _Initial;
+  const factory AppState.loading() = _Loading;
   const factory AppState.success() = _Success;
   const factory AppState.error(Failure failure) = _Error;
 }

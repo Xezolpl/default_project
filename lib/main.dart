@@ -37,13 +37,13 @@ Future<void> initApp() async {
 
   runApp(
     DevicePreview(
-      builder: (context) => CanaryApp(),
+      builder: (context) => App(),
       enabled: !kReleaseMode,
     ),
   );
 }
 
-class CanaryApp extends StatelessWidget {
+class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
