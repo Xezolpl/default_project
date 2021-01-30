@@ -1,16 +1,10 @@
-# default_project
+# Flutter Application Sample with the best packages configured 
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Contains (already configured features)
+  - Internationalization by i18n 
+  - Bloc/Cubit with basic AppCubit
+  - Custom, easy to use Router
+  - Configured splash and home pages
+  - Custom theme, colors, languages, builders for frequently used widgets (appbar, scaffold, texts, textStyles) } constants
+  - Internet conection checker with checking if we have REAL internet connection (not only the signal but also working access to it) - Connectivity + Data Connection Checker
+  - GetIt + dependency injection (cubits/blocs as lazy singletons because it is AWESOME O.O )
