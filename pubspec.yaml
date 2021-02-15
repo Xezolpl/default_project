@@ -51,7 +51,8 @@ dependencies:
   black_hole_flutter: ^0.2.15
   flutter_phoenix: ^0.1.0
   equatable: ^1.2.5
-
+  rename: ^1.2.0
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
